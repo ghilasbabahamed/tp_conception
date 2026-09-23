@@ -1,0 +1,17 @@
+[project]
+name = "tp-conception"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ghilas babahamed", email = "<mohamed.baba-hamed@utoulouse.fr>" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+tp-conception = "tp_conception:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
