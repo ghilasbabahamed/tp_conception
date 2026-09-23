@@ -7,7 +7,9 @@ authors = [
     { name = "ghilas babahamed", email = "<mohamed.baba-hamed@utoulouse.fr>" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "django>=6.1.1",
+]
 
 [project.scripts]
 tp-conception = "tp_conception:main"
