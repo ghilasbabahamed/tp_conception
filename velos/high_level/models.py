@@ -34,6 +34,8 @@ class Machine(models.Model):
 
 	def __str__(self):
 		return self.nom
+	def costs(self):
+		return self.prix
 
 
 class QuantiteMachine(models.Model):
